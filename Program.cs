@@ -16,7 +16,11 @@ namespace ReflexTester
             Console.ReadKey();  //wait for the player to read instructions and press a key to begin
 
             var user = new User();
+            user.Run();
+
+            var getcharacter = new GetCharacter();
             
         }
+
     }
 }

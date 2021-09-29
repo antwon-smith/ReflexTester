@@ -8,7 +8,7 @@ namespace ReflexTester
 {
     public class CharacterBank
     {
-        private List<string> characters;
+        public List<string> characters;
 
         public CharacterBank()
         {
