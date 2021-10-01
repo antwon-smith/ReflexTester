@@ -22,7 +22,7 @@ namespace ReflexTester
         {
             Random random = new Random();
                 int index = random.Next(characters.Count);
-                Console.WriteLine("Your letter is shown below:\n\n");
+                Console.WriteLine("\nYour letter is shown below:\n\n");
                 Console.WriteLine(characters[index]);
                 fromGetCharacter1 = characters[index];
             fromGetCharacter2 = char.Parse(fromGetCharacter1);
