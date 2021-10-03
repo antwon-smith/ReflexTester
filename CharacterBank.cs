@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace ReflexTester
 {
@@ -31,6 +32,21 @@ namespace ReflexTester
             
             
                 
+        }
+        
+        public void Countdown()
+        {
+            Console.WriteLine("\n\nThe letter will be displayed after the countdown\n");
+            Thread.Sleep(1000);
+            Console.Write("5... ");
+            Thread.Sleep(1000);
+            Console.Write("4... ");
+            Thread.Sleep(1000);
+            Console.Write("3... ");
+            Thread.Sleep(1000);
+            Console.Write("2... ");
+            Thread.Sleep(1000);
+            Console.Write("1... \n\n");
         }
     }
 }
